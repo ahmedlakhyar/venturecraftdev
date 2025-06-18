@@ -36,12 +36,12 @@ const LINKS = [
       {
         id: "1-4",
         label: "Fundraising",
-        url: "/fundraising",
+        url: "/investor-pitches",
       },
       
     ],
   },
-  {
+ /** {
     id: 2,
     label: "Investor Pitches",
     url: "/investor-pitches",
@@ -49,7 +49,7 @@ const LINKS = [
     transformOff: "translateY(0px)",
     transitionOn: "all 0.3s ease-in-out 0.5s",
     transitionOff: "all 0s ease-in-out 0s",
-  },
+  }, */
   {
     id: 3,
     label: "Partner",
@@ -164,10 +164,10 @@ export default function Navbar() {
             </Link>
           </div> */}
 
-          <div className="flex py-10 items-center gap-8 desktop_nav">
+          <div className="flex items-center gap-8 desktop_nav">
             {LINKS.map((i, ind) => {
               return (
-                <div key={ind} className="relative group">
+                <div key={ind} className="relative group py-10">
       <Link href={i.url}>
         <a
           className={`hover_effect transition-all ${

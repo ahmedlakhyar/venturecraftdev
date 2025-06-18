@@ -14,37 +14,11 @@ const StoryDescription = () => {
           <p className="p1 p1_width pb-5">
           Our fundraising support begins by assessing your current readiness: business model strength, team composition, regulatory risk, intellectual property position, traction metrics, and capital strategy. From there, we work with you to fill gaps, refine your pitch, and prepare materials that communicate both opportunity and execution capability.
           </p>
-          <p className="p1 p1_width pb-5">
-          We provide support across multiple capital sources, including institutional venture capital, family offices, corporate investors, government-backed programs, and early-stage accelerators. Our team has advised companies through pre-seed formation, Series A scaling, and even strategic exits, giving us the insight to align funding strategy with long-term enterprise value.
-          </p>
-          <p className="p1 p1_width pb-5">
-          Our investor readiness services include:
-          </p>
           <p className="p1 p1_width">
-          - Investment narrative and data room preparation.
+          We provide support across multiple capital sources, including institutional venture capital, family offices, corporate investors, government-backed programs, and early-stage accelerators.<strong> Our team has advised companies through pre-seed formation, Series A scaling, and even strategic exits, giving us the insight to align funding strategy with long-term enterprise value.</strong>
           </p>
-          <p className="p1 p1_width">
-          - Pitch deck creation and refinement.
-          </p>
-          <p className="p1 p1_width">
-          - Financial modeling and capital planning.
-          </p>
-          <p className="p1 p1_width">
-          - Market validation and risk positioning.
-          </p>
-          <p className="p1 p1_width">
-          - Investor pipeline development and outreach strategy.
-          </p>
-          <p className="p1 p1_width">
-          - Coaching for founder presentations and Q&A.
-          </p>
-          <p className="p1 p1_width">
-          - Strategic preparation for accelerators and demo days.
-          </p>
-         
-          
-         
-        </div>
+           
+               </div>
       </Root>
     </>
   );
@@ -54,7 +28,7 @@ export default StoryDescription;
 
 const Root = styled.section`
 .desktop_container{
-  margin-top:60px
+  margin: 5rem auto;
 }
   .h1 {
     font-weight: 800;

@@ -10,11 +10,11 @@ const LINKS = [
     label: "Services",
     url: "/services",
   },
-  {
+  /*{
     id: 2,
     label: "Investor Pitches",
     url: "/investor-pitches",
-  },
+  },*/
   {
     id: 3,
     label: "Partner",

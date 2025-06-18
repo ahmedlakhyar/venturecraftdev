@@ -4,28 +4,28 @@ import { HiScale } from "react-icons/hi";
 import Link from "next/link";
 const HELPS = [
   {
-    image: "/images/service/founder.svg",
+    image: "/images/accelerators.png",
     title: "Accelerators & Incubators",
     text: "We deliver commercialization workshops, mentorship, and investor readiness programs tailored to deep tech ventures.",
     // ratio: 0.72,
     aosDelay: "100",
   },
   {
-    image: "/images/service/scientist.svg",
+    image: "/images/venture.png",
     title: "Venture Firms & Family Offices",
     text: "We help assess technical risk, commercial strategy, and team strength—supporting diligence, dealflow, and founder coaching.",
     // ratio: 0.72,
     aosDelay: "300",
   },
   {
-    image: "/images/service/executive.svg",
+    image: "/images/research1.png",
     title: "Research Institutions & Tech Transfer Offices",
     text: "We assist spinouts and licensing candidates with market validation, business modeling, and investor engagement strategies.",
     // ratio: 0.72,
     aosDelay: "500",
   },
   {
-    image: "/images/service/partner.svg",
+    image: "/images/economic.png",
     title: "Economic Development & Government Programs",
     text: "We contribute as subject-matter experts in commercialization planning, SBIR/STTR support, and innovation policy initiatives.",
     // ratio: 0.96,
@@ -33,7 +33,7 @@ const HELPS = [
     scale: "scale(1.1)",
   },
   {
-    image: "/images/service/partner.svg",
+    image: "/images/innovation.png",
     title: "Corporate Innovation Teams",
     text: "We support scouting, venture readiness, and partnership structuring to align startup pipelines with strategic objectives.",
     // ratio: 0.96,
@@ -60,7 +60,12 @@ const WhoWePartnerWith = () => {
                   className="flex flex-col gap-1 flex-1"
                   key={ind}
                 >
-                  
+                  <div
+                    className="img 2xl:w-72 w-60 -mb-5 aspect-square relative"
+                    style={{ transform: s.scale }}
+                  >
+                    <Image src={s.image} layout="fill" />
+                  </div>
                   <div className="title">{s.title}</div>
                   <div className="p1">{s.text}</div>
                 </div>

@@ -37,6 +37,7 @@ const HELPS = [
     scale: "scale(1.1)",
     link: "/fundraising",
   },
+  
 ];
 
 const ServicesHome = () => {

@@ -16,7 +16,7 @@ const StoryDescription = () => {
           </p>
           <p className="p1 p1_width pb-5">Rather than treating marketing as a surface-layer activity, we embed it into the foundation of your business strategy. This includes defining positioning frameworks, constructing full-funnel engagement strategies, producing technically literate content, and building the analytics infrastructure necessary to iterate with confidence. Whether your stakeholders are engineers, procurement officers, regulators, or venture investors, we help you meet them where they are — and move them toward action.
           </p>
-          <p className="p1 p1_width pb-5">Marketing in the deep tech world is not about volume. It is about precision, alignment, and trust. We help our clients build that trust with every message, every asset, and every campaign.
+          <p className="p1 p1_width pb-5">Marketing in the deep tech world is not about volume. It is about precision, alignment, and trust. <strong>We help our clients build that trust with every message, every asset, and every campaign.</strong>
           </p>
         </div>
       </Root>

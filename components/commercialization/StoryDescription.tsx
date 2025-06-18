@@ -9,10 +9,10 @@ const StoryDescription = () => {
       <Root>
         <div className="desktop_container">
           <p className="p1 p1_width pb-5">
-          Commercialization is the discipline of turning technical innovation into sustained market success. For science-driven companies, this requires far more than pitching or promotional activity—it demands a deliberate, data-informed approach to markets, customers, operations, and value creation. We help you build and operationalize that approach.
+          Commercialization is the discipline of turning technical innovation into sustained market success. For science-driven companies, this requires far more than pitching or promotional activity—it demands a deliberate, data-informed approach to <strong>markets</strong>, <strong>customers</strong>, <strong>operations</strong>, and <strong>value creation</strong>. We help you build and operationalize that approach.
           </p>
           <p className="p1 p1_width pb-5">
-          Our firm delivers structured, phase-appropriate commercialization strategy for deep tech ventures across sectors. Whether you're launching a new product line, scaling a platform technology, or transitioning from research to revenue, we bring decades of experience to help guide your team through each inflection point.
+          Our firm delivers structured, phase-appropriate commercialization strategy for deep tech ventures across sectors. Whether you're launching a new product line, scaling a platform technology, or transitioning from research to revenue, <strong className="">we bring decades of experience to help guide your team through each inflection point.</strong>
           </p>
         </div>
       </Root>

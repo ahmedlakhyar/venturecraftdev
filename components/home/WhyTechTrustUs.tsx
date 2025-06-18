@@ -9,7 +9,7 @@ import { useState } from "react";
 const STRATEGIES = [
   {
     id: 1,
-    image: "/images/home/years.png",
+    image: "/images/home/20-years.png",
     title: "20+ years of commercialization leadership.",
     subTitle:
       "We’ve guided early-stage technologies across sectors from initial grant funding through scale, acquisition, and exit. Our depth of experience ensures practical, phase-appropriate guidance every step of the way.",
@@ -27,7 +27,7 @@ const STRATEGIES = [
   },
   {
     id: 3,
-    image: "/images/service/fundingstrat.svg",
+    image: "/images/home/TABA-eligible.png",
     title: "Agency-aligned and TABA-eligible.",
     subTitle:
       "As an approved commercialization vendor, we support teams applying to and funded by agencies such as NIH, DOE, NSF, DoD, and others. We understand what federal reviewers—and commercial partners—look for.",
@@ -36,7 +36,7 @@ const STRATEGIES = [
   },
   {
     id: 4,
-    image: "/images/service/magnifying.svg",
+    image: "/images/home/fluent-in-scienc1.png",
     title: "Fluent in science, business, and capital markets.",
     subTitle:
       "Our team combines technical expertise with real-world operating experience, allowing us to speak the language of researchers, regulators, and investors alike.",
@@ -45,7 +45,7 @@ const STRATEGIES = [
   },
   {
     id: 5,
-    image: "/images/service/magnifying.svg",
+    image: "/images/home/evidence-driven.png",
     title: "Tailored, evidence-driven strategy.",
     subTitle:
       "We don’t offer one-size-fits-all templates. Our commercialization plans and business strategies are customized based on your technology’s readiness, market dynamics, and funding trajectory.",
@@ -73,7 +73,14 @@ const WhyTechTrustUs = () => {
                   key={ind}
                   className="flex md:flex-row flex-col md:gap-20 gap-10 items-center"
                 >
-                  
+                  <div>
+                    <div
+                      className="img aspect-square relative w-[200px]"
+                      // style={{ aspectRatio: s.ratio}}
+                    >
+                      <Image src={s.image} layout="fill" />
+                    </div>
+                  </div>
 
                   <div className="flex flex-col md:text-left text-center gap-5">
                     <div className="title text-whiteColor font-semibold">
@@ -97,8 +104,9 @@ const WhyTechTrustUs = () => {
 export default WhyTechTrustUs;
 
 const Root = styled.section`
-  background: url("/images/service/commercialized-bg.png");
-  background-repeat: no-repeat;
+ // background: url("/images/service/commercialized-bg.png");
+ background: #b9e9fa;
+ background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-top: 60px;
@@ -119,6 +127,11 @@ const Root = styled.section`
   .title {
     /* font-size: 3rem; */
     font-weight: 800;
+    color: #323e48;
+  }
+
+  h1{
+    color: #323e48
   }
 
   .strategies_wrapper {

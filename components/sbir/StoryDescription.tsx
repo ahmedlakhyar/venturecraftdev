@@ -15,7 +15,7 @@ const StoryDescription = () => {
           We have deep experience supporting applicants across all major SBIR/STTR agencies—including NIH, DOE, NSF, DoD, NASA, and others. As a TABA-eligible vendor, we’re approved to provide post-award commercialization assistance through agencies like NIH and DOE. Our services include competitive landscape research, customer discovery design, regulatory pathway analysis, and full-scale commercialization planning—ensuring your proposal doesn’t just meet the bar, but stands out.
           </p>
           <p className="p1 p1_width pb-5">
-          Need help navigating your next SBIR submission or maximizing a current award? Get in touch with us to learn how we can support your application—and accelerate your path to market.
+          Need help navigating your next SBIR submission or maximizing a current award?<strong> Get in touch with us to learn how we can support your application—and accelerate your path to market.</strong>
           </p>
           
          

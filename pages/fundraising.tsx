@@ -7,6 +7,7 @@ import AgencyLeadership from "components/story/AgencyLeadership";
 import HeaderBanner from "components/HeaderBanner";
 import SyndicateBanner from "components/fundraising/SyndicateBanner";
 import StoryDescription from "components/fundraising/StoryDescription";
+import StatsSection from "components/fundraising/StatsSection";
 import Image from "next/image";
 import Head from "next/head";
 
@@ -20,6 +21,7 @@ const fundraising = () => {
       <Layout>
         <HeaderBanner heading="Fundraising" />
         <StoryDescription/>
+        <StatsSection />
         <SyndicateBanner />
         
         <Footer />

@@ -86,6 +86,23 @@ const STATS = [
     suffix: "+",
     aosDelay: "700",
   },
+  {
+    image: "/images/home/stakeholder-specific.png",
+    title: "Stakeholder-Specific Collateral",
+    text: "Develop customized materials for government reviewers, enterprise buyers, or strategic partners to drive aligned outcomes.",
+  prefix: "",
+    suffix: "+",
+    aosDelay: "700",
+  },
+  {
+    image: "/images/home/stakeholder-specific.png",
+    title: "Stakeholder-Specific Collateral",
+    text: "Develop customized materials for government reviewers, enterprise buyers, or strategic partners to drive aligned outcomes.",
+  prefix: "",
+    suffix: "+",
+    aosDelay: "700",
+  },
+  
 ];
 
 const StatsSection = () => {
@@ -176,7 +193,7 @@ const Root = styled.section`
   padding: 4rem 0;
 
   .title {
-    font-size: 1.7rem;
+    font-size: 1.7rem !important;
     line-height: 120%;
     color: var(--lightBlack);
     font-weight: 700
@@ -204,28 +221,29 @@ const Root = styled.section`
 
   @media screen and (max-width: 1280px) {
     .title {
-      font-size: 4rem;
+    /*  font-size: 4rem; */
     }
   }
 
   @media screen and (max-width: 1024px) {
     .title {
       /* font-size: calc(26px + 2vw); */
-      font-size: 2.5rem;
+      /* font-size: 2.5rem; */
     }
     .text {
       /* font-size: calc(15px + 0.7vw); */
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   }
   @media screen and (max-width: 767px) {
     .title {
       /* font-size: calc(26px + 2vw); */
-      font-size: 2rem;
+      font-size: 1.3rem !important;
     }
     .text {
       /* font-size: calc(15px + 0.7vw); */
-      font-size: 1.2rem;
+      font-size: 1rem;
+      margin-top: 0.5rem;
     }
   }
 `;

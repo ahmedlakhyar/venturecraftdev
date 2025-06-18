@@ -96,9 +96,6 @@ const SyndicateBanner = () => {
           <p className="p1 text-whiteColor md:pl-14 md:mt-5 mt-1">
           Our structure enables us to assemble bespoke teams tailored to the specific demands of each engagement. Whether you're commercializing a new therapeutic, scaling dual-use hardware, or navigating a complex regulatory environment, we are equipped to deliver the expertise and support that drives success.
           </p>
-          <h2 className="h2 md:mb-20 mb-10 md:pl-14 md:mt-5 mt-1">
-          Our approach is grounded in cross-disciplinary fluency. We understand regulatory hurdles, capital markets, deep tech timelines, and customer psychology—and we bring that understanding to bear in every engagement. We are operators and strategists, designers and analysts, scientists and storytellers. That’s what effective commercialization requires.
-          </h2>
           
 
           <div className="strategies_wrapper flex flex-wrap items-start">

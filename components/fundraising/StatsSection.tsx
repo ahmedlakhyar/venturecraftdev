@@ -7,65 +7,57 @@ import { InView, useInView } from "react-intersection-observer";
 
 const STATS = [
   {
-    image: "/images/home/business-model.png",
-    title: "Business Model Architecture",
-    text: "Clarifying the economic engine of your business through models tailored to your technology, sector, and risk profile. We facilitate decisions around licensing vs. direct sales, platform vs. product, and CAPEX vs. OPEX structures, backed by customer data and competitive context.",
+    image: "/images/Investment-narrative.png",
+    title: "Investment narrative and data room preparation",
+    text: "",
     prefix: "",
     suffix: "+",
     aosDelay: "100",
   },
   {
-    image: "/images/home/market-sizing.png",
-    title: "Market Sizing & Segmentation",
-    text: "Rigorous quantification of your total addressable market (TAM), serviceable segments, and obtainable share—with sensitivity to pricing constraints, channel complexity, and regulatory gatekeepers. We ensure your projections are credible, data-backed, and actionable.",
+    image: "/images/pitch1.png",
+    title: "Pitch deck creation and refinement",
+    text: "",
     prefix: "$",
     suffix: "M+",
     aosDelay: "300",
   },
   {
-    image: "/images/home/customer-stakeholder.png",
-    title: "Customer & Stakeholder Mapping",
-    text: "Identifying key buyers, influencers, and adoption drivers across the ecosystem—not just the end-user. We conduct structured discovery, advisory panel development, and field engagement strategies to validate product-market fit and strategic positioning.",
+    image: "/images/financial-modeling.png",
+    title: "Financial modeling and capital planning",
+    text: "",
    prefix: "",
     suffix: "M+",
     aosDelay: "500",
   },
   {
-    image: "/images/home/competitive.png",
-    title: "Competitive & Benchmarking Analysis",
-    text: "Analyzing direct competitors, substitute solutions, and adjacent technologies with an emphasis on unmet needs, IP landscapes, and differentiation vectors. We provide not just who’s out there, but how to win.",
+    image: "/images/market-validation.png",
+    title: "Market validation and risk positioning",
+    text: "",
    prefix: "",
     suffix: "+",
     aosDelay: "700",
   },
   {
-    image: "/images/home/go-to.png",
-    title: "Go-to-Market Planning",
-    text: "Roadmapping the sequence and structure of product launch, market entry, and scale-up. This includes partnership strategy, sales channels, pilot design, customer onboarding frameworks, and early traction planning.",
+    image: "/images/investor-pipeline.png",
+    title: "Investor pipeline development and outreach strategy",
+    text: "",
   prefix: "",
     suffix: "+",
     aosDelay: "700",
   },
   {
-    image: "/images/home/regulatory.png",
-    title: "Regulatory & Operational Strategy",
-    text: "Supporting clients in regulated markets (e.g., life sciences, energy, aerospace) by linking technical development to critical compliance and commercialization milestones. We help ensure that regulatory, procurement, and manufacturing realities are embedded into your growth strategy—not bolted on after the fact.",
+    image: "/images/founder-presentations.png",
+    title: "Coaching for founder presentations and Q&A",
+    text: "",
   prefix: "",
     suffix: "+",
     aosDelay: "700",
   },
   {
-    image: "/images/home/milestone-planning.png",
-    title: "Revenue Modeling & Milestone Planning",
-    text: "Building detailed, phased commercialization roadmaps that include near-term revenue opportunities, scale milestones, and capital requirements. Our models align business objectives with technical timelines and investor expectations.",
-  prefix: "",
-    suffix: "+",
-    aosDelay: "700",
-  },
-  {
-    image: "/images/home/milestone-planning.png",
-    title: "Revenue Modeling & Milestone Planning",
-    text: "Building detailed, phased commercialization roadmaps that include near-term revenue opportunities, scale milestones, and capital requirements. Our models align business objectives with technical timelines and investor expectations.",
+    image: "/images/strategic-preparation.png",
+    title: "Strategic preparation for accelerators and demo days",
+    text: "",
   prefix: "",
     suffix: "+",
     aosDelay: "700",
@@ -73,7 +65,15 @@ const STATS = [
   {
     image: "/images/home/milestone-planning.png",
     title: "Revenue Modeling & Milestone Planning",
-    text: "Building detailed, phased commercialization roadmaps that include near-term revenue opportunities, scale milestones, and capital requirements. Our models align business objectives with technical timelines and investor expectations.",
+    text: "",
+  prefix: "",
+    suffix: "+",
+    aosDelay: "700",
+  },
+  {
+    image: "/images/home/milestone-planning.png",
+    title: "Revenue Modeling & Milestone Planning",
+    text: "",
   prefix: "",
     suffix: "+",
     aosDelay: "700",
@@ -91,7 +91,7 @@ const StatsSection = () => {
       <Root ref={ref}>
         <div className="desktop_container">
           <h2 className="h2 mb-5 text-lightBlack text-center">
-          Our commercialization strategy services include:</h2>
+          Our investor readiness services include:</h2>
 
           <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 justify-between">
             {STATS.map((s, ind) => {

@@ -1,6 +1,9 @@
 import Layout from "components/Layout";
 import ProcessStory from "components/process/ProcessStory";
 import MakeDifferent from "components/process/MakeDifferent";
+import SyndicateBanner from "components/fundraising/SyndicateBanner";
+import StoryDescription from "components/fundraising/StoryDescription";
+import StatsSection from "components/fundraising/StatsSection";
 import Footer from "components/Layout/Footer";
 import DownloadBanner from "components/home/DownloadBanner";
 import { PrimaryButton } from "components/Button";
@@ -60,6 +63,8 @@ const process = () => {
             </>
           }
         />
+        <StoryDescription/>
+        <StatsSection />
         <ProcessStory />
         <MakeDifferent Items={Items} heading="What Makes Us Different" />
         <ProcessBannner className="flex flex-col md:gap-10 items-center md:mt-32 mt-10 lg:mb-20 mb-10 desktop_container">

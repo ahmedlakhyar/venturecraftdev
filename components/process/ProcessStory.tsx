@@ -72,7 +72,8 @@ function ProcessStory() {
             return (
               <div key={ind}>
                 <div>
-                  <div className="md:flex gap-10 md:my-0 my-10">
+                  <div className="md:flex gap-10 md:my-0 my-10 justify-center">
+                    
                     <div>
                       <div
                         className="img md:w-60 w-48 aspect-square relative flex flex-col items-center "
@@ -136,4 +137,9 @@ const Root = styled.section`
     background-color: black;
     border-radius: 50%;
   } */
+  @media (min-wdith: 768px){
+    .mobile-break{
+      justify-content: center
+    }
+  }
 `;

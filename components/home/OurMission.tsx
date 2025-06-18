@@ -8,11 +8,11 @@ const OurMission = () => {
       <Root>
         <div className="desktop_container">
           <h2 className="h2 text-lightBlack">Our Mission</h2>
-          <p className="p1 p1_width pb-2">
-          Every deep tech breakthrough begins with a question no one else could answer. But asking bold questions isn’t the same as building a business. The path from research to real-world impact is full of blind spots — regulatory gaps, investor expectations, untested markets. That’s where we come in: helping innovators craft the business case, the market entry plan, and the story that gets their science out of the lab and into the world.
+          <p className="p1 p1_width pb-4">
+          Every deep tech breakthrough begins with a question no one else could answer. But asking bold questions isn’t the same as building a business. The path from research to real-world impact is full of blind spots — regulatory gaps, investor expectations, untested markets.
           </p>
-          <p className="p1 p1_width pb-2 ">
-           
+          <p className="p1 p1_width pb-2 mb-8">
+          <strong>That’s where we come in:</strong> helping innovators craft the business case, the market entry plan, and the story that gets their science <strong className="text-buttonBg">out of the lab and into the world.</strong>
           </p>
           <p className="p1 p1_width">
             <b>
@@ -45,10 +45,15 @@ const Root = styled.div`
     margin: 1.7rem 0 1.2rem;
   }
 
+  .p1{
+    
+  }
+
   .p1_width {
     width: 82%;
-    margin: auto;
-    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
     color: var(--lightBlack);
   }
 
